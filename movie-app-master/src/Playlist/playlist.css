@@ -1,0 +1,63 @@
+.playlist-container {
+    margin-bottom: 20px;
+    position: relative;
+
+}
+  
+.playlist-container h2 {
+    text-align: center;
+    margin-bottom: 10px; 
+}
+  
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+  
+  
+.movies-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+ 
+.movie-item {
+    text-align: center; 
+    margin: 10px; 
+}
+
+.movie-item h3{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.button_d {
+    bottom: 10px; /* ajustar según necesidad */
+    right: 5px;  /* ajustar según necesidad */
+    padding: 5px 5px; /* ajustar para cambiar el tamaño del botón */
+    font-size: 0.8em; /* ajustar para cambiar el tamaño del texto */
+    color: #f6f9f7;
+    background-color: #19aa19;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.edit-button {
+    position: absolute;
+    bottom: 10px; /* ajustar según necesidad */
+    right: 5px;  /* ajustar según necesidad */
+    padding: 5px 5px; /* ajustar para cambiar el tamaño del botón */
+    font-size: 0.8em; /* ajustar para cambiar el tamaño del texto */
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  

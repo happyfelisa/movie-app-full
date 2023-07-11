@@ -1,0 +1,67 @@
+.dashboard-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .dashboard-container h1 {
+    text-align: center;
+    color: #101011;
+    margin-bottom: 40px;
+    background-color: #6ee45c;
+    border-radius: 10px;
+    padding: 20px
+  }
+  
+  .playlists {
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
+    gap: 30px;
+  }
+  
+  .playlist-container {
+    min-width: 300px;
+  }
+  
+  .playlist-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    background-color: #5fdb8c;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .playlist {
+    background-color: #8aea85;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }  
+  .button-container button {
+    background-color: #19aa19;  /* código de color verde */
+    color: #ffffff;  /* código de color blanco */
+    border: none;  /* quita el borde por defecto del botón */
+    padding: 10px 20px;  /* agrega un padding alrededor del texto */
+    text-align: center;  /* centra el texto del botón */
+    text-decoration: none;  /* quita la subrayado del botón */
+    display: inline-block;  /* el botón se comporta como un elemento en línea */
+    font-size: 16px;  /* tamaño del texto del botón */
+    border-radius: 12px;  /* esquinas redondeadas */
+    transition-duration: 0.4s;  /* duración de la transición al pasar el mouse sobre el botón */
+    cursor: pointer;  /* cambia el cursor a un puntero cuando se pasa sobre el botón */
+}
+
+.button-container button:hover {
+    background-color: #006600;  /* código de color verde oscuro */
+    color: white;  /* código de color blanco */
+}
+.playlist-container form button[type='submit'] {
+  background-color: #000000;
+  color: #ffffff;  
+}

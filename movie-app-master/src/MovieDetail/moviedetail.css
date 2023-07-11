@@ -1,0 +1,51 @@
+.movie-detail-content {
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: #006600 2px solid;
+  border-radius: 5px;
+}
+
+.movie-title {
+  text-align: center;
+  align-items: center;
+}
+
+.movie-info {
+  display: flex;
+  margin-top: 20px;
+}
+
+.movie-image {
+  flex: 0 0 auto;
+  width: -1000px;
+  margin-right: 20px;
+}
+
+.movie-image img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #000;
+  border-radius: 8px;
+  margin-left: auto;
+}
+
+
+.movie-description {
+  flex: 1 1 auto;
+}
+
+.movie-description ul {
+  list-style-type: "\1F3AD";
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.movie-description ul li {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+  
+  
